@@ -1,0 +1,29 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "REST API using MongoDb",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bumboobee/api-blog-post.git"
+  },
+  "keywords": [
+    "MongoDb",
+    "NodeJs",
+    "Express"
+  ],
+  "author": "Bumboobee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bumboobee/api-blog-post/issues"
+  },
+  "homepage": "https://github.com/Bumboobee/api-blog-post#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
