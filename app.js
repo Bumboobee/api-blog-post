@@ -14,7 +14,7 @@ const dbConnection = process.env.CONNECTION_STRING;
 mongoose.connect(dbConnection, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
-  dbName: "your-database-name" // Specify your database name here
+  dbName: "simpleblog"
 })
   .then(() => {
     console.log('Connected to MongoDB');
